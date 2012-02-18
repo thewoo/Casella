@@ -8,8 +8,8 @@ build/*
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-#*.xcworkspace
-#!default.xcworkspace
+*.xcworkspacedata
+!default.xcworkspacedata
 xcuserdata/
 *.moved-aside
 *~.nib
