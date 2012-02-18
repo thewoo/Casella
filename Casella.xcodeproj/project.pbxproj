@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41626EB314EFD1D60016E043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41626EB214EFD1D60016E043 /* UIKit.framework */; };
+		41626EB514EFD1D60016E043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41626EB414EFD1D60016E043 /* Foundation.framework */; };
+		41626EB714EFD1D60016E043 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41626EB614EFD1D60016E043 /* CoreGraphics.framework */; };
+		41626EBD14EFD1D60016E043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41626EBB14EFD1D60016E043 /* InfoPlist.strings */; };
+		41626EBF14EFD1D60016E043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41626EBE14EFD1D60016E043 /* main.m */; };
+		41626EC314EFD1D60016E043 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41626EC214EFD1D60016E043 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41626EAE14EFD1D60016E043 /* Casella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41626EB214EFD1D60016E043 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41626EB414EFD1D60016E043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41626EB614EFD1D60016E043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41626EBA14EFD1D60016E043 /* Casella-Info.plist */ = {isa = PBXFileReference; path = "Casella-Info.plist"; sourceTree = "<group>"; };
+		41626EBC14EFD1D60016E043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41626EBE14EFD1D60016E043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41626EC014EFD1D60016E043 /* Casella-Prefix.pch */ = {isa = PBXFileReference; path = "Casella-Prefix.pch"; sourceTree = "<group>"; };
+		41626EC114EFD1D60016E043 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		41626EC214EFD1D60016E043 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41626EAB14EFD1D60016E043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41626EB314EFD1D60016E043 /* UIKit.framework in Frameworks */,
+				41626EB514EFD1D60016E043 /* Foundation.framework in Frameworks */,
+				41626EB714EFD1D60016E043 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41626EA314EFD1D60016E043 = {
+			isa = PBXGroup;
+			children = (
+				41626EB814EFD1D60016E043 /* Casella */,
+				41626EB114EFD1D60016E043 /* Frameworks */,
+				41626EAF14EFD1D60016E043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41626EAF14EFD1D60016E043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41626EAE14EFD1D60016E043 /* Casella.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41626EB114EFD1D60016E043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41626EB214EFD1D60016E043 /* UIKit.framework */,
+				41626EB414EFD1D60016E043 /* Foundation.framework */,
+				41626EB614EFD1D60016E043 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41626EB814EFD1D60016E043 /* Casella */ = {
+			isa = PBXGroup;
+			children = (
+				41626EC114EFD1D60016E043 /* AppDelegate.h */,
+				41626EC214EFD1D60016E043 /* AppDelegate.m */,
+				41626EB914EFD1D60016E043 /* Supporting Files */,
+			);
+			path = Casella;
+			sourceTree = "<group>";
+		};
+		41626EB914EFD1D60016E043 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41626EBA14EFD1D60016E043 /* Casella-Info.plist */,
+				41626EBB14EFD1D60016E043 /* InfoPlist.strings */,
+				41626EBE14EFD1D60016E043 /* main.m */,
+				41626EC014EFD1D60016E043 /* Casella-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41626EAD14EFD1D60016E043 /* Casella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41626EC614EFD1D60016E043 /* Build configuration list for PBXNativeTarget "Casella" */;
+			buildPhases = (
+				41626EAA14EFD1D60016E043 /* Sources */,
+				41626EAB14EFD1D60016E043 /* Frameworks */,
+				41626EAC14EFD1D60016E043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Casella;
+			productName = Casella;
+			productReference = 41626EAE14EFD1D60016E043 /* Casella.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41626EA514EFD1D60016E043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 41626EA814EFD1D60016E043 /* Build configuration list for PBXProject "Casella" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41626EA314EFD1D60016E043;
+			productRefGroup = 41626EAF14EFD1D60016E043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41626EAD14EFD1D60016E043 /* Casella */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41626EAC14EFD1D60016E043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41626EBD14EFD1D60016E043 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41626EAA14EFD1D60016E043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41626EBF14EFD1D60016E043 /* main.m in Sources */,
+				41626EC314EFD1D60016E043 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41626EBB14EFD1D60016E043 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41626EBC14EFD1D60016E043 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41626EC414EFD1D60016E043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41626EC514EFD1D60016E043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41626EC714EFD1D60016E043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Casella/Casella-Prefix.pch";
+				INFOPLIST_FILE = "Casella/Casella-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41626EC814EFD1D60016E043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Casella/Casella-Prefix.pch";
+				INFOPLIST_FILE = "Casella/Casella-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41626EA814EFD1D60016E043 /* Build configuration list for PBXProject "Casella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41626EC414EFD1D60016E043 /* Debug */,
+				41626EC514EFD1D60016E043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41626EC614EFD1D60016E043 /* Build configuration list for PBXNativeTarget "Casella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41626EC714EFD1D60016E043 /* Debug */,
+				41626EC814EFD1D60016E043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41626EA514EFD1D60016E043 /* Project object */;
+}
