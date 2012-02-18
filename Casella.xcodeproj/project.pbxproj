@@ -13,6 +13,8 @@
 		41626EBD14EFD1D60016E043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41626EBB14EFD1D60016E043 /* InfoPlist.strings */; };
 		41626EBF14EFD1D60016E043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41626EBE14EFD1D60016E043 /* main.m */; };
 		41626EC314EFD1D60016E043 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41626EC214EFD1D60016E043 /* AppDelegate.m */; };
+		41626ECC14EFD26E0016E043 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41626ECA14EFD26E0016E043 /* MainViewController.m */; };
+		41626ECD14EFD26E0016E043 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41626ECB14EFD26E0016E043 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		41626EB214EFD1D60016E043 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41626EB414EFD1D60016E043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41626EB614EFD1D60016E043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		41626EBA14EFD1D60016E043 /* Casella-Info.plist */ = {isa = PBXFileReference; path = "Casella-Info.plist"; sourceTree = "<group>"; };
+		41626EBA14EFD1D60016E043 /* Casella-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Casella-Info.plist"; sourceTree = "<group>"; };
 		41626EBC14EFD1D60016E043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41626EBE14EFD1D60016E043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		41626EC014EFD1D60016E043 /* Casella-Prefix.pch */ = {isa = PBXFileReference; path = "Casella-Prefix.pch"; sourceTree = "<group>"; };
-		41626EC114EFD1D60016E043 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		41626EC014EFD1D60016E043 /* Casella-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Casella-Prefix.pch"; sourceTree = "<group>"; };
+		41626EC114EFD1D60016E043 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41626EC214EFD1D60016E043 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41626EC914EFD26E0016E043 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		41626ECA14EFD26E0016E043 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		41626ECB14EFD26E0016E043 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				41626EC114EFD1D60016E043 /* AppDelegate.h */,
 				41626EC214EFD1D60016E043 /* AppDelegate.m */,
 				41626EB914EFD1D60016E043 /* Supporting Files */,
+				41626EC914EFD26E0016E043 /* MainViewController.h */,
+				41626ECA14EFD26E0016E043 /* MainViewController.m */,
+				41626ECB14EFD26E0016E043 /* MainViewController.xib */,
 			);
 			path = Casella;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41626EBD14EFD1D60016E043 /* InfoPlist.strings in Resources */,
+				41626ECD14EFD26E0016E043 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				41626EBF14EFD1D60016E043 /* main.m in Sources */,
 				41626EC314EFD1D60016E043 /* AppDelegate.m in Sources */,
+				41626ECC14EFD26E0016E043 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
