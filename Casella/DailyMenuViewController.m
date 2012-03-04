@@ -1,26 +1,14 @@
 //
-//  MainViewController.m
+//  DailyMenuViewController.m
 //  Casella
 //
-//  Created by Jorge Juan Pardo Peset on 18/02/12.
+//  Created by Jorge Juan Pardo Peset on 04/03/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "MainViewController.h"
 #import "DailyMenuViewController.h"
 
-@implementation MainViewController
-
-
--(void)pushDailyMenuViewController:(id)sender {
-    
-    DailyMenuViewController *dailyMenu = [[DailyMenuViewController alloc] init];
-    dailyMenu.title = @"Menú Diario";
-    
-    [self.navigationController pushViewController:dailyMenu animated:YES];
-    [dailyMenu release];
-}
-
+@implementation DailyMenuViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

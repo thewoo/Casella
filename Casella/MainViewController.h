@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController {
+    
+    IBOutlet UIButton *buttonDailyMenu;
+}
+
+-(IBAction)pushDailyMenuViewController:(id)sender;
 
 @end
